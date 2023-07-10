@@ -1,18 +1,18 @@
-import { Box, styled } from "@ignite-ui/react";
+import { Box, styled } from '@ignite-ui/react'
 
- export const Form = styled(Box, {
-    display: 'grid',
-    gridTemplateColumns: '1fr auto',
-    gap: '$2',
-    marginTop: '$4',
-    padding: '$4',
-    
-    '@media(max-width: 600px)': {
-        gridTemplateColumns: '1fr',
-    }   
- })
+export const Form = styled(Box, {
+  display: 'grid',
+  gridTemplateColumns: '1fr auto',
+  gap: '$2',
+  marginTop: '$4',
+  padding: '$4',
 
- export const FormError = styled('div', {
-    padding: '0 $4',
-    color: '$gray200'
- })
+  '@media(max-width: 600px)': {
+    gridTemplateColumns: '1fr',
+  },
+})
+
+export const FormError = styled('div', {
+  padding: '0 $4',
+  color: '$gray200',
+})
