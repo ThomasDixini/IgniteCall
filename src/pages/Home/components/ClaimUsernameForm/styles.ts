@@ -11,3 +11,8 @@ import { Box, styled } from "@ignite-ui/react";
         gridTemplateColumns: '1fr',
     }   
  })
+
+ export const FormError = styled('div', {
+    padding: '0 $4',
+    color: '$gray200'
+ })
