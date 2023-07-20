@@ -17,7 +17,7 @@ export const authOptions: AuthOptions = {
     callbacks: {
         async signIn({ account }) {
             if (!account?.scope?.includes('https://www.googleapis.com/auth/calendar')) {
-                return 'https://localhost:3000/register/connect-calendar/?error=permissions'
+                return 'https://localhost:3000/register/connect-calendar?error=permissions'
             }
 
             return true;
